@@ -1,0 +1,44 @@
+/* components/epsoide/index.wxss */
+.container{
+  height: 60rpx;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.index-container{
+  display: flex;
+  flex: row;
+  align-items: baseline;
+}
+
+.plain{
+  font-size: 32rpx;
+}
+
+.index{
+  font-size: 64rpx;
+  font-weight: 800;
+  line-height: 64rpx;
+  margin-right: 14rpx;
+}
+
+.vertical-line{
+  height: 44rpx;
+  margin-right: 14rpx;
+  border-left: 1px solid black;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  margin-top:5rpx;
+}
+
+.month{
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+
+.year{
+  font-size: 24rpx;
+}

@@ -1,0 +1,12 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="container">
+  <view class="header">
+  <v-epsoide class="epsoide" index="{{classicData.index}}"/>
+  <v-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{likeCount}}"/>
+  </view>
+  <v-movie hidden="{{classicData.type!=100}}" img="{{classicData.image}}" content="{{classicData.content}}"/>
+  <v-music wx:if="{{classicData.type==200}}" img="{{classicData.image}}" content="{{classicData.content}}" src="{{classicData.url}}"/>
+  <v-essay hidden="{{classicData.type!=300}}" img="{{classicData.image}}" content="{{classicData.content}}"/>
+
+  <v-navi bind:Left="onNext" bind:Right="onPrevious" title="{{classicData.title}}" latest="{{latest}}" first="{{first}}" class="navi"/>
+</view>
