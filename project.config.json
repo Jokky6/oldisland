@@ -28,12 +28,24 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
+					"id": 0,
+					"name": "bookdetail",
+					"pathName": "pages/book-detail/book-detail",
+					"query": "id=1120"
+				},
+				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "book",
+					"pathName": "pages/book/book",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my"
 				}
 			]
 		}
